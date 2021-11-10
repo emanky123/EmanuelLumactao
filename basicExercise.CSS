@@ -1,0 +1,33 @@
+.header{background-color: rgb(0, 0, 0);
+}
+
+.nav img{
+    width: 150px;
+
+}
+        
+p{color: rgb(0, 0, 0);
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+padding: 10px;
+}
+
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 15%;
+    display: inline-block;
+}

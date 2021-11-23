@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <style>
+            .body{
+              display: flex;
+              height: 100vh;
+              justify-content: center;
+              align-items: center;
+              padding: 10px;
+            }
+            .container{
+                max-width: 700px;
+                width: 100%;
+                background: #fff;
+                padding: 25px 30px;
+                border-radius: 5px;
+            }
+            .container .title{
+                font-size: 25px;
+                font-weight: 500;
+                position: relative;
+            }
+            .container .title::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 3px;
+                width: 30px;
+                background: #9b59b6;
+            }
+            
+
+
+          
+        
+        </style>
+    </head>
+    <center>
+    <body style="background-color: violet;">
+    <div class="container">
+        <div class="title"><h1>Registration Form</h1></div><br>
+        <form>
+            <div class="input-box">
+                <label for="fname">First name:</label><br>
+                <input type="text" placeholder="Enter your first name" id="fname" name="fname"><br>
+                <label for="mname">Middle name:</label><br>
+                <input type="text" placeholder="Enter your middle name" id="mname" name="mname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" placeholder="Enter your last name" id="lname" name="lname">
+            </div>
+            <div class="input-box">
+               <br> <span class="details">Gender:</span>
+                <input type="radio" id="male" name="fav_language" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="fav_language" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="fav_language" value="Others">
+                <label for="others">Others</label>
+            </div>
+            <div class="input-box">
+                <br><label for="email">Enter your email:</label>
+                <input type="email" placeholder="email123@gmail.com" id="email" name="email">
+                <label for="email"></label><br>
+            </div>
+            <div class="input-box"><br>
+                <span class="details">Home Address:</span><br>
+                <textarea id="address" name="address" rows="4" cols="50">
+            Enter your home address here!
+                </textarea>
+            </div>
+            <div class="input-box">
+                <br> <span class="details">Hobbies:</span>
+                <br><input type="checkbox" id="hobbies" name="hobbies" value="Basketball">
+                <label for="hobbies">Sports</label><br>
+                <input type="checkbox" id="hobbies" name="hobbies" value="Singing">
+                <label for="hobbies">Singing</label><br>
+                <input type="checkbox" id="hobbies" name="hobbies" value="Dancing">
+                <label for="hobbies">Dancing</label><br>
+                <input type="checkbox" id="hobbies" name="hobbies" value="Cooking">
+                <label for="hobbies">Cooking</label><Br>
+                <input type="checkbox" id="hobbies" name="hobbies" value="Playing music Instruments">
+                <label for="hobbies">Playing music Instruments</label><br>
+                <input type="checkbox" id="hobbies" name="hobbies" value="Computer Games">
+                <label for="hobbies">Computer Games</label><br>
+                <input type="checkbox" id="hobbies" name="hobbies" value="Drawing">
+                <label for="hobbies">Drawing</label>
+            </div>
+            <div class="input-box">
+               <br><label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor">  
+            </div>
+            <div class="input-box"><br>
+                <div class="input-box"><br>
+                    <span class="details">Say Something about yourself:</span><br>
+                    <textarea id="address" name="address" rows="4" cols="50">
+                  Type here!
+                    </textarea>
+                </div>
+            <div class="input-box">
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </div>  
+                
+
+            </div>
+        </form>
+
+    </div>
+    </body>
+    </center>
+</html>

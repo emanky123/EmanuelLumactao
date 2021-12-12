@@ -138,7 +138,7 @@ int main()
 			{
 			case 1: 
 			printf("\n\tYou Choose Manila FoodShoppe");
-			printf("\n\n\tProduct                                                  Price");
+			printf("\n\n\tFoods                                                    Price");
 			printf("\n\n\t[1] CORN SOUP.............................................Php 160.");
 			printf("\n\n\t[2] LOMI..................................................Php 165.");
 			printf("\n\n\t[3] WANTOK SOUP...........................................Php 190.");
